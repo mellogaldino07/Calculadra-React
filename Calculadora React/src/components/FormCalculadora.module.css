@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9eef5;
+}
+
+h2 {
+    color: #2b2d42;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 460px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    margin: 20% auto;
+}
+
+.numero1 input, .numero2 input {
+    width: 280px;
+    outline: none;
+    border: 2px solid #dcdfe6;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    transition: border-color 0.2s;
+}
+
+.numero1 input:hover, .numero2 input:hover,
+.numero1 input:focus, .numero2 input:focus {
+    border-color: #4361ee;
+}
+
+.operacao select {
+    width: 296px;
+    outline: none;
+    border: 2px solid #dcdfe6;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: border-color 0.2s;
+}
+
+.operacao select:hover,
+.operacao select:focus {
+    border-color: #4361ee;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn input {
+     width: 130px;
+     padding: 10px;
+     margin-top: 24px;
+     outline: none;
+     border: none;
+     border-radius: 8px;
+     color: white;
+     letter-spacing: 1px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn input:active {
+    transform: scale(0.97);
+}
+
+input[type="submit"] {
+    background-color: #4361ee;
+}
+
+input[type=button] {
+    background-color: #ef476f;
+}
+
+input[type="submit"]:hover {
+    background-color: #2f4bd0;
+}
+
+input[type=button]:hover {
+    background-color: #c73257;
+}
+
+p {
+    color: #2b2d42;
+    font-weight: 600;
+    margin-top: 24px;
+    font-size: 16px;
+}
